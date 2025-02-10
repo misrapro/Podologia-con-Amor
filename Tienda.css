@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  border: 5px solid #2da4e9;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #2da4e9;
+  color: white;
+  padding: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.title p {
+  margin: 0;
+  font-size: 16px;
+  font-style: italic;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  background-color: #2da4e9;
+  margin: 0;
+  display: flex;
+  justify-content: left;
+}
+
+nav ul li {
+  padding: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  background: #fff;
+  padding: 0px;
+  max-width: 900px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0   0  10px #2da4e9;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #0073b7;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.hero {
+  color: #000000;
+  text-align: justify; 
+  margin: 80px;
+  padding: 5px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+img {
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.img1 {
+  margin-right: 20px;
+  width: 150px;
+  height: 150px;
+  float: right;
+  padding: 5px;
+}
+
+.card {
+  background: #f4f4f4;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+h3 {
+  color: #444;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-top: 5px;
+}
+  
+.contact-section {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.contact-section ul li {
+  margin-bottom: 10px;
+}
+
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section form label {
+  margin-bottom: 5px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section form button {
+  padding: 10px;
+  background-color: #2da4e9;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section form button:hover {
+  background-color: #0073b7;
+}
